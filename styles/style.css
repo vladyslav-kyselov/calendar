@@ -20,9 +20,8 @@
         padding-bottom: 10px;
         font-size: 32px;
         font-weight: bold;
-        width: 400px;
-        margin: 10% auto 10px;
-
+        width: 300px;
+        margin: 10% auto 20px;
     }
 
     .left-arrow{
@@ -40,8 +39,9 @@
         display: flex;
         flex-wrap: wrap;
         text-align: center;
-        margin-left: 100px;
         margin-top: 7px;
+        width: 400px;
+        margin: 0 auto;
     }
 
     .flex * , .name-day * {
@@ -53,8 +53,10 @@
     .name-day {
         display: flex;
         text-align: center;
-        margin-left: 100px;
+        width: 400px;
+        margin: 0 auto;
     }
+
 
     .border-bottom{
         border-bottom: 1px solid black;
@@ -65,5 +67,17 @@
     }
 
     .today {
-        background: lightsalmon;
+        background: lightblue;
+        font-size: 16px;
+        border: 1px dotted blue;
+        box-sizing: border-box;
+    }
+
+    .no-active {
+        background: beige;
+        opacity: 0.5;
+    }
+
+    .date{
+        font-size: 17px;
     }
